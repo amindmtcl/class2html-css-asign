@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Roboto", sans-serif;
+  
+  font-style: normal;
+}
+img{
+    max-width: 100%;
+}
+
+header{
+    background-color: rgb(174, 206, 174);
+    color: rgb(48, 34, 170);
+    border-radius: 20px;
+
+}
+.container-full{
+padding: 40px;
+text-align: center;
+width: auto;
+}
+
+header p {
+    font-size: 40px;
+}
+header p strong{
+    text-transform:uppercase;
+    color: rgb(37, 199, 37);
+}
+.this{
+    text-align: center;
+    font-size: 30px;
+    border-radius: 20px;
+    background-color: darkseagreen;
+
+}
+.identity{
+    
+    padding: 30px;
+    
+}
+.identity img{
+
+    margin: 0 auto;
+    display: block;
+    border-radius: 100%;
+}
+.identity h2 {
+    text-align: center;
+    padding: 15px;
+    color: brown;
+    font-style: normal;
+}
+.identity span {
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.videoSection {
+    padding: 20px;  
+}
+.videoSection iframe{
+    display: block;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 100px rgb(41, 38, 38);
+    border: 10px solid rgb(0, 26, 255);
+}
+
+.myselfSection{
+padding: 100px;
+background-color: rgb(168, 188, 189);
+
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+.col{
+    flex-basis: 33.33%;
+    padding: 15px;
+    border-radius: 20%;
+
+    
+   
+
+}
+
+.card{
+    
+   background-color: rgb(234, 241, 240);
+   width: 300px;
+   height: 200px;
+   border-radius: 15px;
+     padding: 20px;
+  
+
+}
+.card p {
+color: rgb(10, 10, 10);
+
+
+
+}
+.card h3 {
+    color: rgb(30, 18, 190);
+    text-align: center;
+
+
+}
+.col-1-2{
+    flex-basis: 50%;
+    padding: 15px;
+    
+}
+video{
+    width: 100%;
+    border-radius: 20px;
+    border: 5px solid rgb(102, 184, 136);
+}
+footer{
+    background-color: rgb(84, 155, 84);
+    text-align: center;
+    text-transform: capitalize;
+    padding: 15px;
+
+}
